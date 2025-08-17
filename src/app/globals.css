@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@layer base {
+  :root {
+    --main-black: #1B1A1A;
+    --main-white: #FFFFFF;
+    --main-gray: #403E3B;
+
+    --secondary-gray: #645C55;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -7,6 +17,10 @@ h4,
 h5,
 h6 {
   color: #1B1A1A;
+}
+
+button, label {
+  cursor: pointer;
 }
 
 body {
