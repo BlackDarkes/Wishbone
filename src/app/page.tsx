@@ -5,6 +5,7 @@ import { ReedingHouse } from "@componests/reedingHouse";
 import { OurProcesses } from "@componests/ourProcess"
 import { TheMarbleStaircase } from "@componests/theMarbleStaircase";
 import { PriorClients } from "@componests/priorClients/ui/PriorClients";
+import { TheSwirlingStaircase } from "@componests/theSwirlingStaircase";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OurProcesses />
       <TheMarbleStaircase />
       <PriorClients />
+      <TheSwirlingStaircase />
     </>
   );
 }
