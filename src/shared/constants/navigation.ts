@@ -1,1 +1,0 @@
-export const NAVIGATION_POINTS = ["Projects", "About", "News", "Team", "Contact"];

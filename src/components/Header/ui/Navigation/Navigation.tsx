@@ -1,4 +1,4 @@
-import { NAVIGATION_POINTS } from "@shared/constants/navigation";
+import { NAVIGATION_POINTS } from "@shared/constants";
 import Link from "next/link";
 
 interface INavigationProps {

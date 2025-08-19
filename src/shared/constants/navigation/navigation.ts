@@ -1,0 +1,1 @@
+export const NAVIGATION_POINTS: string[] = ["Projects", "About", "News", "Team", "Contact"];

@@ -1,5 +1,4 @@
-import { FEEDBACKS_ITEMS } from "@shared/constants/feedbacks";
-import { OUT_FIRM_INFO } from "@shared/constants/outFirm";
+import { FEEDBACKS_ITEMS, OUT_FIRM_INFO } from "@shared/constants";
 import { Container, Feedback } from "@shared/ui";
 
 export const OutFirm = () => {
