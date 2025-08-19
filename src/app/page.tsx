@@ -3,6 +3,7 @@ import { Hero } from "@componests/hero/Index";
 import { OutFirm } from "@componests/ourFirm";
 import { ReedingHouse } from "@componests/reedingHouse";
 import { OurProcesses } from "@componests/ourProcess"
+import { TheMarbleStaircase } from "@componests/theMarbleStaircase";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <OutFirm />
       <ReedingHouse />
       <OurProcesses />
+      <TheMarbleStaircase />
     </>
   );
 }

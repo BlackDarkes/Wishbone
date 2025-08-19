@@ -6,7 +6,7 @@ import { Burger } from "../Burger/Burger";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="fixed top-0 left-0 w-full bg-white">
       <Container size="midle" className="py-[24px]">
         <Image src={Logo} alt="Логотип" className="max-[767px]:w-[160px]" />
 
