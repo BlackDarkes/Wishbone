@@ -7,7 +7,7 @@ export const OurProcesses = () => {
     <section>
       <Container size="midle" className="flex-col py-[clamp(60px,7vw,100px)]">
         <div className="flex flex-col gap-x-[13px] items-center">
-          <p className="text-[14px] text-[#645C55]">Our process</p>
+          <p className="text-[14px] text-[#645C55] uppercase">Our process</p>
           <h2 className="text-[#1B1A1A] text-[clamp(26px,7vw,39px)]">How we do what we do.</h2>
         </div>
 

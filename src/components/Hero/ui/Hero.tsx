@@ -7,7 +7,7 @@ export const Hero = () => {
       <Container size="extra" className="gap-x-[30px] bg-[#ECE7E4] max-[1024px]:flex-col max-[1024px]:pt-[40px]">
         <div className="flex flex-col items-start justify-center px-[clamp(50px,7vw,100px)_clamp(60px,7vw,110px)] w-[100%] max-[1024px]:pb-[40px]">
           <div className="flex flex-col gap-y-[20px]">
-            <p className="text-[14px] text-[#645C55]">Wishbone+Partners</p>
+            <p className="text-[14px] text-[#645C55] uppercase">Wishbone+Partners</p>
             <h2 className="text-[clamp(2rem,0.727rem+3.64vw,4rem)] leading-[clamp(40px,7vw,70.4px)] text-[#1B1A1A]">The home of beautiful architecture.</h2>
             <p className="text-[#403E3B]">
               We are an architecture firm with a focus on beautiful but
