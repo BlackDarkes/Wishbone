@@ -4,7 +4,7 @@ import HeroImage from "@assets/Hero/IMAGE.png";
 export const Hero = () => {
   return (
     <section>
-      <Container size="extra" className="gap-x-[30px] bg-[#ECE7E4] max-[1024px]:flex-col max-[1024px]:py-[40px]">
+      <Container size="extra" className="gap-x-[30px] bg-[#ECE7E4] max-[1024px]:flex-col max-[1024px]:pt-[40px]">
         <div className="flex flex-col items-start justify-center px-[clamp(50px,7vw,100px)_clamp(60px,7vw,110px)] w-[100%] max-[1024px]:pb-[40px]">
           <div className="flex flex-col gap-y-[20px]">
             <p className="text-[14px] text-[#645C55]">Wishbone+Partners</p>

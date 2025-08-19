@@ -1,5 +1,5 @@
 import { Container } from "@shared/ui";
-import { Navigation } from "@componests/Header/ui/Navigation/Navigation";
+import { Navigation } from "@componests/header/ui/Navigation/Navigation";
 import Image from "next/image";
 import Logo from "@assets/logo.svg";
 import { Burger } from "../Burger/Burger";

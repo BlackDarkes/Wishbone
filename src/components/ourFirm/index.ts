@@ -1,0 +1,1 @@
+export { OutFirm } from "./ui/OutFirm";

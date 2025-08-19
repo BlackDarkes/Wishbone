@@ -1,4 +1,4 @@
-import { Navigation } from "@componests/Header/ui/Navigation/Navigation";
+import { Navigation } from "@componests/header/ui/Navigation/Navigation";
 
 interface IBurgerListProps {
   isOpen: boolean;
