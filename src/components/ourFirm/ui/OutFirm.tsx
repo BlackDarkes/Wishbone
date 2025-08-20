@@ -1,3 +1,5 @@
+"use client"
+
 import { FEEDBACKS_ITEMS, OUT_FIRM_INFO } from "@shared/constants";
 import { Container, Feedback } from "@shared/ui";
 import { motion } from "framer-motion";
@@ -6,7 +8,7 @@ export const OutFirm = () => {
   const firstFeedback = FEEDBACKS_ITEMS[0];
 
   return (
-    <motion.section className="py-[clamp(60px,7vw,100px)]">
+    <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="py-[clamp(60px,7vw,100px)]">
       <Container size="smole" className="gap-x-[130px] gap-y-[40px] max-[767px]:flex-col ">
         <h2 className="text-[clamp(24px,7vw,32px)] self-start max-[767px]:self-center">Our firm</h2>
 
