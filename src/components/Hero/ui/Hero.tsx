@@ -18,7 +18,7 @@ export const Hero = () => {
             </p>
           </div>
 
-          <button className="mt-[30px] p-[11px_20px] border-[1px] border-[#1B1A1A] text-[#1B1A1A] duration-400 hover:bg-[#1B1A1A] hover:text-[#ECE7E4] hover:rounded-[8px]">Read more</button>
+          <button className="mt-[30px] p-[11px_20px] border-[1px] border-[#1B1A1A] outline-[1px] outline-transparent outline-offset-[3px] text-[#1B1A1A] duration-400 hover:bg-[#1B1A1A] hover:text-[#ECE7E4] hover:rounded-[8px] active:translate-y-[1px] focus-visible:outline-[#1B1A1A]">Read more</button>
         </div>
 
         <div className="bg-no-repeat bg-cover w-[100%] h-[720px]" style={{ backgroundImage: `url(${HeroImage.src})` }} />
