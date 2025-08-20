@@ -9,6 +9,7 @@ import { TheSwirlingStaircase } from "@componests/theSwirlingStaircase";
 import { FeaturedProject } from "@componests/featuredProjects";
 import { MeetOurTeam } from "@componests/meetOurTeam";
 import { GetInTouch } from "@componests/getInTouch";
+import { Footer } from "@componests/footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <FeaturedProject />
       <MeetOurTeam />
       <GetInTouch />
+      <Footer />
     </>
   );
 }

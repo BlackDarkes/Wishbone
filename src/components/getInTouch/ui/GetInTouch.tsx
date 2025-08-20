@@ -3,7 +3,7 @@ import { Container } from "@shared/ui";
 export const GetInTouch = () => {
   return (
     <section className="bg-[#CEC4BC]">
-      <Container size="midle" className="py-[clamp(60px,7vw,100px)]">
+      <Container size="midle" className="py-[clamp(60px,7vw,100px)] max-[767px]:flex-col">
         <div className="w-[min(100%,570px)]">
           <p className="text-[#645C55] text-[14px]">Get in touch</p>
           <h2 className="text-[clamp(28px,7vw,40px)] text-[#1B1A1A] leading-[42px]">Think we would be a good fit for your next project?</h2>
