@@ -4,7 +4,7 @@ import { FeaturedProjects } from "@shared/ui/FeaturedProjects/FeaturedProjects";
 
 export const FeaturedProject = () => {
   return (
-    <section>
+    <section className="bg-[#F7F7F7]">
       <Container size="midle" className="flex-col py-[clamp(60px,7vw,100px)]">
         <div className="self-start">
           <h2 className="text-[clamp(26px,7vw,39px)] text-[#1B1A1A]">Featured projects</h2>

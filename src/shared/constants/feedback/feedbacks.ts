@@ -12,22 +12,22 @@ export const FEEDBACKS_ITEMS: IFeedback[] = [
     post: "Senior Partner",
   },
   {
-    avatar: ImageAvatar2.src,
+    avatar: ImageAvatar5.src,
     name: "Nolan Peters",
     post: "Associate",
   },
   {
-    avatar: ImageAvatar3.src,
+    avatar: ImageAvatar2.src,
     name: "Ferris Wonder",
     post: "Associate Partner",
   },
   {
-    avatar: ImageAvatar4.src,
+    avatar: ImageAvatar3.src,
     name: "Aria Stone",
     post: "Senior Partner",
   },
   {
-    avatar: ImageAvatar5.src,
+    avatar: ImageAvatar4.src,
     name: "Niko Ferry",
     post: "Partner",
   },
