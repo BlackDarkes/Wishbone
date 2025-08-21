@@ -7,7 +7,7 @@ import IconLogo from "@assets/logo.svg";
 
 export const Footer = () => {
   return (
-    <section>
+    <footer>
       <Container size="midle" className="py-[40px] max-[767px]:flex-col gap-y-[50px]">
         <div className="flex flex-col">
           <Image src={IconLogo} alt="logo" className="mb-[20px]" />
@@ -29,6 +29,6 @@ export const Footer = () => {
           </a>
         </div>
       </Container>
-    </section>
+    </footer>
   );
 };

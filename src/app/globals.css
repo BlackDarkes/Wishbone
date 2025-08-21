@@ -26,3 +26,7 @@ button, label {
 body {
   color: #645C55;
 }
+
+img, button {
+  user-select: none;
+}
